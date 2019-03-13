@@ -1,8 +1,8 @@
 function todoMaker() {
-  const toDoList = ['make the bad'];
+  const toDoList = ['make the bed'];
 
   return {
-    listToDos: function() {
+    listToDos: function () {
       return toDoList;
     }
   }
