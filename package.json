@@ -1,12 +1,12 @@
 {
   "name": "jestodo",
   "version": "1.0.0",
-  "description": "",
+  "description": "A todo-list built with Jest testing",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
-  "author": "Gloria and nathaniel",
+  "author": "Gloria and Nathaniel",
   "license": "ISC",
   "devDependencies": {
     "jest": "^24.3.1"
