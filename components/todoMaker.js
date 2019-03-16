@@ -1,10 +1,17 @@
 function todoMaker() {
-  const toDoList = ['make the bed'];
+  let toDoList = [];
 
   return {
-    listToDos: function () {
+    listToDos() {
       return toDoList;
-    }
+    },
+    addTask(newTodo) {
+      toDoList = [...toDoList, newTodo];
+      return toDoList;
+    },
+    removeToDo() {
+      return undefined;
+    },
   }
 }
 
