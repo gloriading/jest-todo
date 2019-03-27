@@ -24,8 +24,5 @@
     "not op_mini all"
   ],
   "author": "Gloria and Nathaniel",
-  "license": "ISC",
-  "devDependencies": {
-    "jest": "^24.3.1"
-  }
+  "license": "ISC"
 }
